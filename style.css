@@ -1,3 +1,36 @@
 .Main-Container{
     border: 2px solid black;
+    height: 500px;
+    width: 1000px;
+    
+}
+.Container{
+    border:  2px solid rgb(183, 17, 17);
+    width: 900px;
+    height: 400px;
+    display: flex;
+    margin: 20px;
+}
+.leftside{
+    border: 1px solid pink;
+   
+}
+.top-section{
+    display:  flex;
+    align-items: first baseline;
+    
+}
+.brand{
+    margin-right: auto;
+    
+    
+}
+.haveaccount{
+    flex: 2px;
+    color:  red;
+    float: right;
+    text-decoration: none;
+    float: right;
+    padding-right: 4px;
+   
 }
