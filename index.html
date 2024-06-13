@@ -23,28 +23,73 @@
                         <h2>Abeen.</h2>
                     </div>
                     <div class="haveaccount">
-                        <h4 style="float: right;"> Already have an account Sign in here !</h4>
+                        <h4 style="float: right;"> Already have an account <a href="#">Sign in here !</a></h4>
                     </div>
+                </div>
+                
+                <div class="details">
                     <div class="account">
                         <h3>
                             Create An Account
                         </h3>
                     </div>
-                    <div class="details">
-                        <form>
-                            <label for="fname">First Name</label><input type="text">
+                    <form action="" method="post">
+                        <div class="content">
+                            <div class="inputbox">
+                                <label for="fname">First Name</label>
+                                <input type="text" placeholder="Enter your first name" name="name" required>
+                            </div>
 
-                            <label for="leftside">Last Name</label><input type="text">
-                            <label for="email">Email</label><input type="text">
-                            <label for="add">Address</label><input type="text">
-                            <label for="num">Phone number</label><input type="number">
-                            <label for="pass">Create Password</label><input type="text">
-                            <label for="cpass">Confirm Password</label><input type="text">
-                            
+                            <div class="inputbox">
+                                <label for="lname">Last Name</label>
+                                <input type="text" placeholder="Enter your last name">
+                            </div>
 
-                        </form>
+                            <div class="inputbox">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="enter your valid email address" name="email" required>
+                            </div>
+
+                            <div class="inputbox">
+                                <label for="phone">Phone number</label>
+                                <input type="tel" placeholder="Enter phone number" name="phone" required>
+                            </div>
+
+                            <div class="inputbox">
+                                <label for="password">Create Password</label>
+                                <input type="password" placeholder="Enter  Password" name="password" required>
+                            </div>
+
+                            <div class="inputbox">
+                                <label for="cpass">Confirm-Password</label>
+                                <input type="password" placeholder="Confirm Password" name="Confirm-Password" required>
+                            </div>
+                            <span class="gender-title">Gender</span>
+                            <div class="gender-category">
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="others">
+                                <label for="others">Others</label>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="alert">
+                        <p>
+                            By clicking Sign Up, you agree to our <a href="#">Terms,</a>
+                            <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy.</a>You may recevie SMS
+                            notification from us and can opt out at any time
+                        </p>
+                    </div>
+                    <div class="footer-container">
+                        <button>Sign Up</button>
                     </div>
                 </div>
+                
+
+                
 
             </div>
 

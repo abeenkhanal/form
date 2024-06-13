@@ -1,19 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: linear-gradient(#380036, #0CBABA); */
+}
+
 .Main-Container{
     border: 2px solid black;
-    height: 500px;
+    height: 700px;
     width: 1000px;
     
 }
 .Container{
     border:  2px solid rgb(183, 17, 17);
     width: 900px;
-    height: 400px;
+    height: 550px;
     display: flex;
     margin: 20px;
 }
 .leftside{
     border: 1px solid pink;
+    width: 450px;
+    
    
+}
+.rightside{
+    border:  1px solid greenyellow;
+    padding-left: 20px;
+    width: 450px;
 }
 .top-section{
     display:  flex;
@@ -33,4 +54,51 @@
     float: right;
     padding-right: 4px;
    
+}
+.details{
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(188, 181, 181);
+    box-shadow: 0 11px 10px rgb(158, 16, 16);
+    
+
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.inputbox:nth-child(2n){
+    justify-content: end;
+}
+.inputbox label, .gender-title{
+    width: 96%;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.gender-title{
+    font-size: 16px;
+}
+.inputbox input{
+    height: 25px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(16, 16, 16);
+    outline: none;
+}
+.inputbox input input:is(:focus,:valid){
+    box-shadow: 3px;
 }
