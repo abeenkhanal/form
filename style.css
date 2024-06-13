@@ -14,27 +14,41 @@ body{
 
 .Main-Container{
     border: 2px solid black;
-    height: 700px;
+    height: 900px;
     width: 1000px;
+    background-color: #D2D3D5;
     
 }
 .Container{
     border:  2px solid rgb(183, 17, 17);
     width: 900px;
-    height: 550px;
+    height: 800px;
     display: flex;
     margin: 20px;
+    background-color: #32396f;
 }
 .leftside{
     border: 1px solid pink;
     width: 450px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #FAFDFB;
+    
     
    
 }
+.leftside h1{
+    margin-left: 60px;
+}
 .rightside{
-    border:  1px solid greenyellow;
+    border:  1px solid rgb(20, 20, 19);
     padding-left: 20px;
     width: 450px;
+    height: 600px;
+    background-color: #FBBA18;
+    
 }
 .top-section{
     display:  flex;
@@ -43,6 +57,7 @@ body{
 }
 .brand{
     margin-right: auto;
+    color: #312A7A;
     
     
 }
@@ -63,7 +78,7 @@ body{
     overflow: hidden;
     background: rgb(188, 181, 181);
     box-shadow: 0 11px 10px rgb(158, 16, 16);
-    
+    color: #312A7A;
 
 }
 
@@ -72,6 +87,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 0;
+    color: #312A7A;
 }
 .inputbox{
     display: flex;
@@ -100,5 +116,55 @@ body{
     outline: none;
 }
 .inputbox input input:is(:focus,:valid){
-    box-shadow: 3px;
+    box-shadow: 0 3px 6px;
+}
+.gender-category label{
+    padding: 0 20px 0 5px;
+    font-size: 14px;
+}
+.gender-category{
+    color: rgb(16, 11, 6);
+
+}
+.gender-category label, .gender-category input{
+    cursor: pointer;
+}
+.alert p{
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(105, 105, 116);
+    margin: 5px 0;
+    padding: 10px;
+
+}
+.alert a{
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+
+}
+.alert a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+.footer-container{
+    margin: 15px 0;
+
+}
+.footer-container button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: bisque;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#aaa,#678);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-container button:hover{
+    background-image: linear-gradient(to right #610456, #aa07aa);
 }
