@@ -14,15 +14,15 @@ body{
 
 .Main-Container{
     border: 2px solid black;
-    height: 900px;
-    width: 1000px;
+    height: 700px;
+    width: 950px;
     background-color: #D2D3D5;
     
 }
 .Container{
     border:  2px solid rgb(183, 17, 17);
     width: 900px;
-    height: 800px;
+    height: 600px;
     display: flex;
     margin: 20px;
     background-color: #32396f;
@@ -76,7 +76,7 @@ body{
     margin: 0 28px;
     border-radius: 10px;
     overflow: hidden;
-    background: rgb(188, 181, 181);
+    
     box-shadow: 0 11px 10px rgb(158, 16, 16);
     color: #312A7A;
 
@@ -88,6 +88,7 @@ body{
     justify-content: space-between;
     padding: 20px 0;
     color: #312A7A;
+    background-color: #FBBA18;
 }
 .inputbox{
     display: flex;

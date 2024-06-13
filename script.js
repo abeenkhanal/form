@@ -5,28 +5,39 @@ let phone="";
 let pass="";
 let pass2="";
 
-Firstname= ()=>{
+
+Firstname= (a)=>{
+    fname=a;
 
 }
 
 
-Lastname=()=>{
-
+Lastname=(a)=>{
+    lname=a;
 }
 
 
 
-Email=()=>{
-
+Email=(a)=>{
+email=a;
 }
 
-Phone=(){
-    
+Phone=(a)=>{
+    phone=a; 
 }
 
-password=(){
+Password=(a)=>{
+pass=a;
+}
+Password2=(a)=>{
+pass2=a;
 
 }
-password2=(){
-    
+submit=()=>{
+console.log(fname);
+console.log(lname);
+console.log(email);
+console.log(phone);
+console.log(pass);
+console.log(pass2);1
 }

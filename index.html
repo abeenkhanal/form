@@ -20,7 +20,7 @@
             <div class="rightside">
                 <div class="top-section">
                     <div class="brand">
-                        <h2>Form.</h2>
+                        
                     </div>
                     <div class="haveaccount">
                         <h4 style="float: right;"> Already have an account <a href="#">Sign in here !</a></h4>
@@ -37,32 +37,32 @@
                         <div class="content">
                             <div class="inputbox">
                                 <label for="fname">First Name</label>
-                                <input type="text" placeholder="Enter your first name" name="name" required>
+                                <input type="text" placeholder="Enter your first name" onchange="Firstname(this.value)">
                             </div>
 
                             <div class="inputbox">
                                 <label for="lname">Last Name</label>
-                                <input type="text" placeholder="Enter your last name">
+                                <input type="text" placeholder="Enter your last name"onchange="Lastname(this.value)">
                             </div>
 
                             <div class="inputbox">
                                 <label for="email">Email</label>
-                                <input type="email" placeholder="enter your valid email address" name="email" required>
+                                <input type="email" placeholder="enter your valid email address" onchange="Email(this.value)">
                             </div>
 
                             <div class="inputbox">
                                 <label for="phone">Phone number</label>
-                                <input type="tel" placeholder="Enter phone number" name="phone" required>
+                                <input type="tel" placeholder="Enter phone number"onchange="Phone(this.value)">
                             </div>
 
                             <div class="inputbox">
                                 <label for="password">Create Password</label>
-                                <input type="password" placeholder="Enter  Password" name="password" required>
+                                <input type="password" placeholder="Enter  Password" onchange="Password(this.value)">
                             </div>
 
                             <div class="inputbox">
                                 <label for="cpass">Confirm-Password</label>
-                                <input type="password" placeholder="Confirm Password" name="Confirm-Password" required>
+                                <input type="password" placeholder="Confirm Password" onchange="Password2(this.value)">
                             </div>
                             <span class="gender-title">Gender</span>
                             <div class="gender-category">
@@ -84,7 +84,7 @@
                         </p>
                     </div>
                     <div class="footer-container">
-                        <button>Sign Up</button>
+                        <button onclick="submit()">Sign Up</button>
                     </div>
                 </div>
                 
@@ -96,6 +96,8 @@
 
         </div>
     </div>
+    <script src="./script.js">
+    </script>
 </body>
 
 </html>
