@@ -33,31 +33,36 @@
                             Create An Account
                         </h3>
                     </div>
-                    <form action="" method="post">
+                    <div>
                         <div class="content">
                             <div class="inputbox">
                                 <label for="fname">First Name</label>
                                 <input type="text" placeholder="Enter your first name" onchange="Firstname(this.value)">
+                                <p class="empityError" id="firstNameError"></p>
                             </div>
 
                             <div class="inputbox">
                                 <label for="lname">Last Name</label>
                                 <input type="text" placeholder="Enter your last name"onchange="Lastname(this.value)">
+                                <p class="empityError" id="lastNameError"></p>
                             </div>
 
                             <div class="inputbox">
                                 <label for="email">Email</label>
                                 <input type="email" placeholder="enter your valid email address" onchange="Email(this.value)">
+                                <p class="empityError" id="emailError"></p>
                             </div>
 
                             <div class="inputbox">
                                 <label for="phone">Phone number</label>
                                 <input type="tel" placeholder="Enter phone number"onchange="Phone(this.value)">
+                                <p class="empityError" id="numberError"></p>
                             </div>
 
                             <div class="inputbox">
                                 <label for="password">Create Password</label>
                                 <input type="password" placeholder="Enter  Password" onchange="Password(this.value)">
+                                <p class="empityError" id="passwordError"></p>
                             </div>
 
                             <div class="inputbox">
@@ -75,7 +80,7 @@
                             </div>
 
                         </div>
-                    </form>
+                    </div>
                     <div class="alert">
                         <p>
                             By clicking Sign Up, you agree to our <a href="#">Terms,</a>
